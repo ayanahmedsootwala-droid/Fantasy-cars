@@ -20,7 +20,7 @@ export default function LoginPage() {
   const [showPwd, setShowPwd] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const siteName = getSetting('site_name', 'XYZ Automobiles');
+  const siteName = getSetting('site_name', 'Vertex Cars');
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
